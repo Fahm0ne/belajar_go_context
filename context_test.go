@@ -142,6 +142,6 @@ func TestContextWithDeadline(t *testing.T) {
 time.Sleep(2 *time.Second)
 
 
-	fmt.Println("Total Akhir Goroutine", runtime.NumGoroutine())
+	fmt.Println("Total Akhir dari Goroutine", runtime.NumGoroutine())
 
 }
